@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "759986845119",
+    "firebase_url": "https://krish-e-fbb5e-default-rtdb.firebaseio.com",
+    "project_id": "krish-e-fbb5e",
+    "storage_bucket": "krish-e-fbb5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759986845119:android:f26c7192af85f8d83add0a",
+        "android_client_info": {
+          "package_name": "com.example.krishe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "759986845119-kkitlg616el37v1s1fqs6n43tsmqbaja.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.krishe",
+            "certificate_hash": "6b08d292139caad5b04386d9ac2213a8c1e7fccb"
+          }
+        },
+        {
+          "client_id": "759986845119-m37q22getj1beqc4l9ollticn4tnhitv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGBjQJQMD-vV5KkxjWmvcQfBdEh6dlL4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "759986845119-m37q22getj1beqc4l9ollticn4tnhitv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
