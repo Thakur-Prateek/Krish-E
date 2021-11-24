@@ -44,16 +44,16 @@ public class Login extends AppCompatActivity {
                         databaseReference.child("users").addListenerForSingleValueEvent(new ValueEventListener() {
                             @Override
                             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                                // check if mobile is exist in firebase databse
+                                // check if mobile is exist in firebase database
                                 if(snapshot.hasChild(phoneTxt)){
                                     // mobile is exist in firebase database
-                                    // get password of user from firebase and match it with user entrerd pass
+                                    // get password of user from firebase and match it with user entererd pass
                                     
                                     final String getPassword = snapshot.child(phoneTxt).child("password").getValue(String.class);
                                     if(getPassword.equals(passwordTxt)){
                                         Toast.makeText(Login.this, "Successfully logged in", Toast.LENGTH_SHORT).show();
                                         // open MainActivity on Success
-                                        startActivity(new Intent(Login.this, MainActivity.class));
+                                        startActivity(new Intent(Login.this, Plant.class));
                                         finish();
                                     }
                                     else{
