@@ -4,13 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    tools:context=".ReadData">
+    android:background="@color/white">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
 
         <TextView
             android:id="@+id/textView2"
@@ -25,7 +23,6 @@
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
 
         <Button
             android:id="@+id/readdataBtn"
@@ -74,7 +71,6 @@
                 android:layout_marginStart="5dp"
                 android:textSize="20sp" />
 
-
         </LinearLayout>
 
         <LinearLayout
@@ -102,8 +98,6 @@
                 android:textColor="@color/black"
                 android:layout_marginStart="5dp"
                 android:textSize="20sp" />
-
-
         </LinearLayout>
 
         <LinearLayout
@@ -131,13 +125,34 @@
                 android:textColor="@color/black"
                 android:layout_marginStart="5dp"
                 android:textSize="20sp" />
-
-
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="220dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/readdataBtn">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Soil Temperature:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
-
+            <TextView
+                android:id="@+id/idSoilTemp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:layout_marginStart="5dp"
+                android:textSize="20sp" />
+        </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
